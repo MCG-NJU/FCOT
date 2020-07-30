@@ -41,13 +41,14 @@ We use [Lasot](https://cis.temple.edu/lasot/), [GOT-10k](http://got-10k.aitestun
 and [COCO](http://cocodataset.org/#home) to train fcot. 
 Before running the training scripts, you should download the datasets and set the correct datasets path in `ltr/admin/local.py`. 
 Also remember to download the pretrained [dimp50](https://drive.google.com/file/d/14zFM14cjJY-D_OFsLDlF1fX5XrSXGBQV/view?usp=sharing) 
-model to initialize the backbone and classification-18 branch of fcot.
+model to initialize the backbone and classification-18 branch of fcot. 
+Then switch to your conda environment using `conda activate $YOUR_CONDA_ENVIRONMENT`.
 The training scripts can be found at [bash](bash) folder. 
  We use the two following stategies to train fcot (we report the results of the first training strategy in the paper).
 
 * 3-stages training: Train the backbone, regression branch (except for reg-optimizer) and classification-72 branch for 70 epochs firstly.
 Then freeze the trained modules and train the regression optimizer for 5 epochs. Lastly, train the classification-18 branch for 25 epochs. 
-You can use the following commands to train fcot in this strategy.
+You can use the following commands to train fcot in this strategy. 
 ```
 cd bash
 ./train_fcot_3stages.sh

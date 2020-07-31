@@ -122,7 +122,7 @@ The raw experimental results reported in paper on **VOT2018**, **GOT-10k**, **Tr
   <tr>
     <td>DiMP-50</td>
     <td>0.440/0.153</td>
-    <td>68.4/0.894</td>
+    <td>68.4/89.4</td>
     <td>61.9</td>
     <td>64.3</td>
     <td>56.9/65.0</td>

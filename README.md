@@ -120,6 +120,16 @@ The raw experimental results reported in paper on **VOT2018**, **GOT-10k**, **Tr
     <th>GOT-10k<br>AO</th>
   </tr>
   <tr>
+    <td>DiMP-50</td>
+    <td>0.440/0.153</td>
+    <td>68.4/0.894</td>
+    <td>61.9</td>
+    <td>64.3</td>
+    <td>56.9/65.0</td>
+    <td>74.0</td>
+    <td>61.1</td>
+  </tr>
+  <tr>
     <td>Original</td>
     <td>0.508/0.108</td>
     <td>69.3/91.3</td>
@@ -130,7 +140,7 @@ The raw experimental results reported in paper on **VOT2018**, **GOT-10k**, **Tr
     <td>64.0</td>
   </tr>
   <tr>
-    <td>FCOT-2s (new)</td>
+    <td>FCOT-3s (new)</td>
     <td>0.501/0.098</td>
     <td>70.2/92.5</td>
     <td>63.4</td>
@@ -140,7 +150,7 @@ The raw experimental results reported in paper on **VOT2018**, **GOT-10k**, **Tr
     <td>-</td>
   </tr>
   <tr>
-    <td>FCOT-3s (new)</td>
+    <td>FCOT-2s (new)</td>
     <td>0.461/0.126</td>
     <td>-</td>
     <td>-</td>

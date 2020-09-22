@@ -97,6 +97,13 @@ bash pytracking/utils/gdrive_download 1ZUsh0gE2I1ERRNVfcHiK1z_qfzwUkp1o models/f
 
 echo ""
 echo ""
+echo "****************** Build region ******************"
+cd pytracking/utils/vot_utils/
+python setup.py build_ext --inplace
+cd ../../..
+
+echo ""
+echo ""
 echo "****************** Setting up environment ******************"
 python -c "from pytracking.evaluation.environment import create_default_local_file; create_default_local_file()"
 python -c "from ltr.admin.environment import create_default_local_file; create_default_local_file()"

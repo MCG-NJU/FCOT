@@ -72,6 +72,12 @@ cd ltr/external/DCNv2
 ./make.sh
 ```
 
+#### Build region
+In order to run FCOT on VOT2018 dataset, utils from [pysot-toolkit](https://github.com/StrangerZhang/pysot-toolkit/tree/master/pysot/utils) are used.
+```bash
+cd pytracking/utils/vot_utils/
+python setup.py build_ext --inplace
+```
 
 #### Setup the environment  
 Create the default environment setting files. 

@@ -9,7 +9,8 @@ The official implementation of FCOT using PyTorch.
 ![fcot](architecture.png)
 
 ## News  
-* [2020.7.30] Code and model are now released for the tracker FCOT.
+* [2020.7.30] Code and model are now released for the tracker FCOT.  
+* [2020.11.29] <font color='red'> Bug: </font> We will fix the problem where the results on VOT2018 are not reproducible. <font color='red'> Notes: </font> The tracking speed of 47 FPS is evaluated on GOT-10k dataset.
 
 ## Table of Contents
 

@@ -11,7 +11,7 @@ The official implementation of FCOT using PyTorch.
 ## News  
 * [2020.7.30] Code and model are now released for the tracker FCOT.  
 * [2020.11.29] **Bug fix:** We will solve the problem soon where the results on VOT2018 are not reproducible.
-**Notes:** The tracking speed of 47 FPS is evaluated on GOT-10k dataset using a single 2080ti GPU. While due to the different settings of online training, the tracking speed on other datasets may vary.
+**Notes:** The tracking speed of 47 FPS is evaluated on GOT-10k dataset using a single 2080ti GPU. While due to the different settings of online training, the tracking speed on other datasets may vary. Excepting for the gpu, evaluation platform also make a difference.
 
 ## Table of Contents
 
